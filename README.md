@@ -1,7 +1,7 @@
 pinboard-sync
 =============
 
-[pinboard-sync](https://pinboard.lynnard.tk) is a simple shell script that allows you to synchronize your [Pinboard](http://pinboard.in) bookmarks with your local cache.
+[pinboard-sync](http://pinboard.lynnard.tk) is a simple shell script that allows you to synchronize your [Pinboard](http://pinboard.in) bookmarks with your local cache.
 
 By default, the local cache is stored at `~/.config/vimb/bookmark`, in the format of `<href>TAB<description>TAB<space delimited tags>`, which can be read natively by [vimb](https://github.com/fanglingsu/vimb/).
 
@@ -11,6 +11,7 @@ Whenever the script runs, it merges the newest changes from the cloud as well as
 
 * `curl`: for pulling and pushing data from/to the Pinboard cloud
 * `diff`: for comparing local cache differences
+* `lockrun`: for locking the synchronization instance
 
 ## Configuration
 
